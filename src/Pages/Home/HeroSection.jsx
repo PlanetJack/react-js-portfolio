@@ -5,7 +5,7 @@ export default function HeroSection () {
                 <div className="hero--section--content">
                     <p className="section--title"> Hello, I'm Jack</p>
                     <h1 className="hero--section--title">
-                        <span className="hero--section-title--color">Full
+                        <span className="hero--section--title--color">Full
                             Stack</span> {" "}
                         <br />
                         Developer
