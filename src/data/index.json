@@ -2,28 +2,21 @@
     "skills": [
             {
                 "id": 1,
-                "src": "./img/product-chain-1.png",
+                "src": "./img/front-end.png",
                 "title": "Front-End",
                 "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit."
             },
             {
                 "id": 2,
-                "src": "./img/tag-1.png",
+                "src": "./img/back-end.png",
                 "title": "Back-End",
                 "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit."
             },
             {
                 "id": 3,
-                "src": "./img/feather-pen-2.png",
-                "title": "UI & UX Design",
-                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit."
-            },
-            {
-                "id": 4,
-                "src": "./img/feather-pen-1.png",
-                "title": "Webflow Development",
+                "src": "./img/hardware.png",
+                "title": "Hardware",
                 "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit."
             }
-
     ]
 }
