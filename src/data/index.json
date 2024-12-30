@@ -18,5 +18,49 @@
                 "title": "Hardware",
                 "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit."
             }
-    ]
+    ],
+    "portfolio": [
+            {
+                "id": 1,
+                "src": "./img/projects/codilox_web.png",
+                "title": "Tech Website Project",
+                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "link": "View In GitHub"
+            },
+            {
+                "id": 2,
+                "src": "./img/projects/auto_warehouse.png",
+                "title": "Warehouse Automation Project",
+                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "link": "View In GitHub"
+            },
+            {
+                "id": 3,
+                "src": "./img/projects/POS_SYSTEM.png",
+                "title": "POS System",
+                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "link": "View In GitHub"
+            },
+            {
+                "id": 4,
+                "src": "./img/projects/home_inventory.png",
+                "title": "Home Inventory System",
+                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "link": "View In GitHub"
+            },
+            {
+                "id": 5,
+                "src": "./img/projects/flight_reserv.png",
+                "title": "Flight Reservation System",
+                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "link": "View In GitHub"
+            },
+            {
+                "id": 6,
+                "src": "./img/projects/searchAppliances.png",
+                "title": "Appliance Data Management System",
+                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "link": "View In GitHub"
+            }
+        ]
 }
