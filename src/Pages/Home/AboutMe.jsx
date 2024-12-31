@@ -10,23 +10,36 @@ export default function AboutMe (){
                     <p className="section--title">About</p>
                     <h1
                     className="skills-section-heading">About Me</h1>
-                    <p className="hero--section-description">
-                    I am a creative problem solver,
-                    always approaching challenges with a positive mindset.
+                    <p className="hero--section--description">
+                    <strong>I am a creative problem solver</strong> with a proactive mindset,
+                    leveraging my technical expertise and interpersonal skills to
+                    address challenges effectively.
+                    My background in <strong>robotics development</strong> and <strong>full-stack
+                    web development</strong> allows me to approach problems from both
+                    innovative and pragmatic perspectives.
                     </p>
-                    <p className="hero--section-description">
-                    My proactive attitude helps me foster a collaborative and
-                    constructive environment within the team, even in the face of difficulties.
-                    Although I tend to be cautious initially, I quickly adapt to new surroundings,
-                    improving communication and cooperation as I grow more comfortable with my teammates.
+                    <p className="hero--section--description">
+                    Recently, I have been actively learning and improving my skills
+                    in <strong>React</strong> and <strong>Node.js</strong>, which has strengthened my ability to build
+                    robust, scalable web applications.
+                    This continuous growth mindset helps me stay updated on emerging
+                    technologies and apply them to real-world projects.
                     </p>
-                    <p className="hero--section-description">
-                    I am open to various perspectives, always seeking the best solutions
-                    while maintaining mutual respect and understanding during discussions or disagreements.
-                    With an ENFJ personality type, I naturally gravitate toward leadership and teamwork,
-                    contributing positively to the organization by encouraging
-                    active communication and considering different viewpoints.
+                    <p className="hero--section--description">
+                    As an ENFJ personality type, I naturally excel in <strong>fostering
+                    collaboration and driving teamwork.</strong> During my time as a
+                    <strong>Robotics Developer at NovaTech</strong>, I quickly adapted to new tools
+                    and workflows while promoting <strong>open communication and mutual
+                    respect</strong> within the team. I successfully provided solutions aligned
+                     with the team's values, ensuring efficient and collaborative outcomes.
                     </p>
+                    <p className="hero--section--description">
+                    Whether working on automating processes,
+                    building user-centric web applications, or developing
+                    hardware solutions, I bring a balance of <strong>technical proficiency</strong>
+                    and <strong>strategic thinking</strong> to deliver impactful results.
+                    </p>
+
                 </div>
             </div>
 
