@@ -4,7 +4,7 @@
                 "id": 1,
                 "src": "./img/front-end.png",
                 "title": "Front-End",
-                "description": "Using the knowledge of HTML and CSS learned at school, \nI developed a variety of websites, ranging from simple web pages to a personal portfolio. \nThrough this, I built a solid foundation in web structure and styling. Later, I utilized React to develop a Tech Website and personal portfolio projects, gaining experience in applying component-based architecture and state management. \nI focused on creating user-friendly UIs and implementing responsive designs, which significantly enhanced my practical web development skills.",
+                "description": "Using the knowledge of HTML and CSS learned at school, \nI developed a variety of websites, ranging from simple web pages to a personal portfolio. \nThrough this, I built a solid foundation in web structure and styling. Later, I utilized React to develop a Tech Website and personal portfolio projects, gaining experience in applying component-based architecture and state management. \n\nI focused on creating user-friendly UI and implementing responsive designs, which significantly enhanced my practical web development skills.",
                 "languages": [
                     {"icon": "./img/skills/HTML-icon.png", "name": "HTML"},
                     {"icon": "./img/skills/CSS-icon.png", "name": "CSS"},
@@ -31,7 +31,19 @@
                 "id": 3,
                 "src": "./img/hardware.png",
                 "title": "Hardware",
-                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit."
+                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "languages":[
+                    {"icon": "./img/skills/AGV-icon.png", "name":"AGV Robot"},
+                    {"icon": "./img/skills/AMR-icon.png", "name":"AMR Robot"},
+                    {"icon": "./img/skills/airplane-icon.png", "name":"Aircraft"},
+                    {"icon": "./img/skills/powerSupply-icon.png", "name":"Power Supply"},
+                    {"icon": "./img/skills/electric-icon.png", "name":"Electric"},
+                    {"icon": "./img/skills/soldering-iron-icon.png", "name":"Solering Iron"},
+                    {"icon": "./img/skills/sensor-icon.png", "name":"Sensor"},
+                    {"icon": "./img/skills/multimeter-icon.png", "name":"Multimeter"},
+                    {"icon": "./img/skills/mqtt-icon.png", "name":"MQTT"}
+                    
+                ] 
             }
     ],
     "portfolio": [
