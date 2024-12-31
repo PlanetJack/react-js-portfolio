@@ -4,13 +4,28 @@
                 "id": 1,
                 "src": "./img/front-end.png",
                 "title": "Front-End",
-                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit."
-            },
+                "description": "Using the knowledge of HTML and CSS learned at school, \nI developed a variety of websites, ranging from simple web pages to a personal portfolio. \nThrough this, I built a solid foundation in web structure and styling. Later, I utilized React to develop a Tech Website and personal portfolio projects, gaining experience in applying component-based architecture and state management. \nI focused on creating user-friendly UIs and implementing responsive designs, which significantly enhanced my practical web development skills.",
+                "languages": [
+                    {"icon": "./img/skills/HTML-icon.png", "name": "HTML"},
+                    {"icon": "./img/skills/CSS-icon.png", "name": "CSS"},
+                    {"icon": "./img/skills/react-icon.png", "name": "React"}
+                ]
+                },
             {
                 "id": 2,
                 "src": "./img/back-end.png",
                 "title": "Back-End",
-                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit."
+                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "languages":[
+                    {"icon": "./img/skills/c-sharp-icon.png", "name":"C#"},
+                    {"icon": "./img/skills/java-icon.png", "name":"Java"},
+                    {"icon": "./img/skills/javascript-icon.png", "name":"JavaScript"},
+                    {"icon": "./img/skills/nodejs-icon.png", "name":"NodeJS"},
+                    {"icon": "./img/skills/mysql-icon.png", "name":"MySQL"},
+                    {"icon": "./img/skills/oracle-icon.png", "name":"OracleDB"},
+                    {"icon": "./img/skills/redis-icon.png", "name":"Redis"},
+                    {"icon": "./img/skills/mongo-db-icon.png", "name":"MongoDB"}
+                ] 
             },
             {
                 "id": 3,
