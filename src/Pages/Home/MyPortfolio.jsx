@@ -4,39 +4,19 @@ import data from "../../data/index.json";
 export default function MyPortfolio() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
-  const [modalStyle, setModalStyle] = useState({});
 
   // Open Modal function
-  const openModal = (project, event) => {
-    const buttonRect = event.target.getBoundingClientRect();
-    const centerX = buttonRect.left + buttonRect.width / 2;
-    const centerY = buttonRect.top + buttonRect.height / 2;
-
-    setModalStyle({
-      top: `${centerY}px`,
-      left: `${centerX}px`,
-      transform: "scale(0)",
-      opacity: 0,
-    });
-
+  const openModal = (project) => {
+    document.body.style.overflow = "hidden";
     setSelectedProject(project);
     setIsModalOpen(true);
-
-    setTimeout(() => {
-      setModalStyle({
-        top: "50%",
-        left: "50%",
-        transform: "translate(-50%, -50%) scale(1)",
-        opacity: 1,
-      });
-    }, 100);
   };
 
   // Close Modal function
   const closeModal = () => {
+    document.body.style.overflow = "auto"; 
     setIsModalOpen(false);
     setSelectedProject(null);
-    setModalStyle({});
   };
 
   return (
@@ -62,9 +42,9 @@ export default function MyPortfolio() {
                   <button
                     key={idx}
                     className="btn"
-                    onClick={(e) =>
+                    onClick={() =>
                       link.text === "Detail"
-                        ? openModal(item, e)
+                        ? openModal(item)
                         : window.open(link.url, "_blank")
                     }
                   >
@@ -79,15 +59,33 @@ export default function MyPortfolio() {
 
       {/* Modal */}
       {isModalOpen && selectedProject && (
-        <div className="modal" style={modalStyle}>
-          <div className="modal-content">
-            <h2>{selectedProject.title}</h2>
-            <p>{selectedProject.description}</p>
-            <button className="btn-close" onClick={closeModal}>
-              Close
-            </button>
+        <>
+          {/* Overlay */}
+          <div className="modal-overlay open" onClick={closeModal}></div>
+
+          {/* Modal */}
+          <div className="modal open">
+            <div className="modal-content">
+              <h2>{selectedProject.title}</h2>
+              {selectedProject.modalDescription.map((content, index) => (
+                typeof content === "string" ? (
+                  <p key={index}>{content}</p>
+                ) : content.type === "image" ? (
+                  <img
+                    key={index}
+                    src={content.src}
+                    alt={selectedProject.title}
+                    className="modal-image"
+                  />
+                ) : null
+              ))}
+              <button className="btn-close" onClick={closeModal}>
+                Close
+              </button>
+            </div>
           </div>
-        </div>
+
+        </>
       )}
     </section>
   );

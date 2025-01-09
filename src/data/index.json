@@ -52,8 +52,15 @@
                 "id": 1,
                 "src": "./img/projects/codilox_web.png",
                 "title": "Tech Website Project",
-                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "description": "Rebuilt a Tech Website using React, Tailwind CSS, and JavaScript, with a focus on responsive design and improved user experience.",
+                "modalDescription": [
+                    { "type": "image", "src": "./img/projects/Detail/codilox_detail(1).jpg"},
+                    "This project involved rebuilding a Tech Website with a focus on responsive design and an enhanced user experience. \n\nI utilized React for component-based architecture, Tailwind CSS for modern styling, and JavaScript to implement dynamic features. The project aimed to improve navigation and optimize the website for both desktop and mobile users.",
+                    "I utilized React for component-based architecture, Tailwind CSS for modern styling, and JavaScript to implement dynamic features.",
+                    "The project aimed to improve navigation and optimize the website for both desktop and mobile users."   
+                ] ,
                 "links": [
+                    {"text": "View In Website", "url": "https://codilextech-development.netlify.app/" },
                     { "text": "Detail"}
                 ]
             },
@@ -61,46 +68,70 @@
                 "id": 2,
                 "src": "./img/projects/auto_warehouse.png",
                 "title": "Warehouse Automation Project",
-                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "description": "Worked on a warehouse automation project optimizing logistics with autonomous forklifts and picking robots.",
+                "modalDescription": [
+                    { "type": "image", "src": "./img/projects/Detail/warehouse(1).jpg"},
+                    "💡Key Skills Highlighted:",
+                    "♦ AGV and AMR integration",
+                    "♦ Sensor inspection and safety validation",
+                    "♦ C# development for real-time communication",
+                    "♦ Redis for data caching and performance optimization",
+                    { "type": "image", "src": "./img/projects/Detail/warehouse(2).jpg"},
+                    "During the Warehouse Automation Project, I worked on integrating Multiway's AGV (Automated Guided Vehicle) Forklift and AMR (Autonomous Mobile Robot) Picking Robot to operate seamlessly within the same warehouse environment.",
+                    "The project aimed to optimize warehouse logistics by automating material handling and item picking tasks.",
+                    "Initially, I conducted comprehensive sensor inspections and safety tests on the AGV Forklift to ensure the robot could navigate safely and efficiently in a shared space. These tests included validating obstacle detection, route mapping, and emergency stop mechanisms to meet the required safety standards.",   
+                    { "type": "image", "src": "./img/projects/codilox_web.png"},
+                    "Following the initial testing phase, I focused on developing and implementing C# code to facilitate real-time communication between the robotic hardware and the warehouse management system.",
+                    "Specifically, I worked on retrieving and processing status information from the AGV, such as its position, battery level, and operational state. By utilizing Redis for data storage and caching, I was able to optimize system performance, ensuring faster and more reliable data access during robot operations.",
+                    "This project provided hands-on experience in robotic system integration, safety validation, and real-time data processing, contributing to the development of a more efficient and automated warehouse environment."
+                    ] ,
                 "links": [
                     { "text": "Detail"}
                 ]
             },
             {
                 "id": 3,
-                "src": "./img/projects/POS_SYSTEM.png",
-                "title": "POS System",
-                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "src": "./img/projects/First_Portfolio.jpg",
+                "title": "Portfolio (Korean Ver)",
+                "description": "Built my first portfolio website in Korean using HTML, CSS, and JavaScript. The project focused on creating a clean, responsive design with a user-friendly layout to showcase my skills and projects.",
                 "links": [
-                    {"text": "View In GitHub", "url": "https://github.com/BiteByte-Capstone/POS_System" },
-                    {"text": "Detail"}
+                    {"text": "View In Website", "url": "https://planetjack.github.io/" }
                 ]
             },
             {
                 "id": 4,
-                "src": "./img/projects/home_inventory.png",
-                "title": "Home Inventory System",
-                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "src": "./img/projects/POS_SYSTEM.png",
+                "title": "POS System",
+                "description": "Project to improve POS System for a Thai Restaurant. Aimed to enhance the limited functionality of the existing system by providing a user-friendly interface",
                 "links": [
-                    { "text": "View In GitHub", "url": ""}
+                    {"text": "View In GitHub", "url": "https://github.com/BiteByte-Capstone/POS_System" }
                 ]
             },
             {
                 "id": 5,
-                "src": "./img/projects/flight_reserv.png",
-                "title": "Flight Reservation System",
+                "src": "./img/projects/home_inventory.png",
+                "title": "Home Inventory System",
                 "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
                 "links": [
-                    { "text": "View In GitHub", "url": ""}
+                    { "text": "View In GitHub", "url": "https://github.com/PlanetJack/HomeInventory"}
                 ]
             },
             {
                 "id": 6,
+                "src": "./img/projects/flight_reserv.png",
+                "title": "Flight Reservation System",
+                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "links": [
+                    { "text": "View In GitHub", "url": "https://github.com/PlanetJack/Flight-Reservation"}
+                ]
+            },
+            {
+                "id": 7,
                 "src": "./img/projects/searchAppliances.png",
                 "title": "Appliance Data Management System",
                 "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
                 "links": [
-                    { "text": "View In GitHub", "url": ""}
+                    { "text": "View In GitHub", "url": "https://github.com/PlanetJack/Appliance_Management"}
                 ]
             }
         ]
