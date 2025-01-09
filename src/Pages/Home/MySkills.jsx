@@ -20,6 +20,15 @@ export default function MySkills(){
                                 <p className="skills--section--description" style={{whiteSpace: "pre-line"}}> {/* Make space on description */}
                                     {item.description}
                                 </p>
+                                <p className="skills--section--description" style={{whiteSpace: "pre-line"}}>
+                                    {item["skill-1"]}
+                                </p>
+                                <p className="skills--section--description" style={{whiteSpace: "pre-line"}}>
+                                    {item["skill-2"]}
+                                </p>
+                                <p className="skills--section--description" style={{whiteSpace: "pre-line"}}>
+                                    {item["skill-3"]}
+                                </p>
                                 {/* Language mapping */}
                                 <div className="skills--languages">
                                     {(item.languages || []).slice(0, 5).map((lang, langIndex) => ( 

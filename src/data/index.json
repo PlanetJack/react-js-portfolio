@@ -17,6 +17,9 @@
                 "src": "./img/back-end.png",
                 "title": "Back-End",
                 "description": "Building on my academic foundation and practical experience, I have developed proficiency in back-end technologies. During my time as a Robotics Developer, I worked on integrating robotic systems with in-house software using C#. \n\nI handled data communication between robots and our system and used Redis to store and retrieve robot data, improving system performance through caching. \n\nIn my academic projects, I worked with Java, MySQL, and OracleDB, which helped me understand database design, SQL queries, and backend logic. Recently, I expanded my skills by learning Node.js and exploring MongoDB to build RESTful APIs and lightweight back-end services. By combining these technologies, I have a strong grasp of developing scalable and maintainable server-side systems, with an emphasis on efficient data management and integration with front-end applications. ",
+                "skill-1":"skill 1",
+                "skill-2":"skill 2",
+                "skill-3":"skill 3",
                 "languages":[
                     {"icon": "./img/skills/c-sharp-icon.png", "name":"C#"},
                     {"icon": "./img/skills/java-icon.png", "name":"Java"},
@@ -80,7 +83,6 @@
                     "During the Warehouse Automation Project, I worked on integrating Multiway's AGV (Automated Guided Vehicle) Forklift and AMR (Autonomous Mobile Robot) Picking Robot to operate seamlessly within the same warehouse environment.",
                     "The project aimed to optimize warehouse logistics by automating material handling and item picking tasks.",
                     "Initially, I conducted comprehensive sensor inspections and safety tests on the AGV Forklift to ensure the robot could navigate safely and efficiently in a shared space. These tests included validating obstacle detection, route mapping, and emergency stop mechanisms to meet the required safety standards.",   
-                    { "type": "image", "src": "./img/projects/codilox_web.png"},
                     "Following the initial testing phase, I focused on developing and implementing C# code to facilitate real-time communication between the robotic hardware and the warehouse management system.",
                     "Specifically, I worked on retrieving and processing status information from the AGV, such as its position, battery level, and operational state. By utilizing Redis for data storage and caching, I was able to optimize system performance, ensuring faster and more reliable data access during robot operations.",
                     "This project provided hands-on experience in robotic system integration, safety validation, and real-time data processing, contributing to the development of a more efficient and automated warehouse environment."
