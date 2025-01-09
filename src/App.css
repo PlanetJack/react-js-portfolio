@@ -654,7 +654,7 @@ Testimonial Ends */
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 64px;
+    gap: 32px;
 }
 .contact--form--container {
     display: grid;
@@ -843,9 +843,21 @@ select {
     .portfolio--container-box {
       gap: 30px;
     }
+    @media screen and (max-width: 768px) {
+      .contact--section {
+          padding: 50px 20px;
+          height: 100vh;
+        }
+          .btn {
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto; 
+        }
+      
+    }
     .skills--section,
     .testimonial--section,
-    .contact--section,
+    
     .footer--container {
       gap: 20px;
       padding-top: 70px;

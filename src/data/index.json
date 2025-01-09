@@ -111,7 +111,7 @@
                 "id": 5,
                 "src": "./img/projects/home_inventory.png",
                 "title": "Home Inventory System",
-                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "description": "This project is a home inventory management web application developed using Java and MySQL. The goal is to help users organize and track their household items more efficiently. The application was built in NetBeans 8.2, with MySQL 8.0 as the database.",
                 "links": [
                     { "text": "View In GitHub", "url": "https://github.com/PlanetJack/HomeInventory"}
                 ]
@@ -120,7 +120,7 @@
                 "id": 6,
                 "src": "./img/projects/flight_reserv.png",
                 "title": "Flight Reservation System",
-                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "description": "Developed a flight reservation management system for the 'Traveless' travel agency as a personal project. Built the back-end using C# in Visual Studio to enable users to search flights, register travelers, and make reservations based on their travel details.",
                 "links": [
                     { "text": "View In GitHub", "url": "https://github.com/PlanetJack/Flight-Reservation"}
                 ]
@@ -129,7 +129,7 @@
                 "id": 7,
                 "src": "./img/projects/searchAppliances.png",
                 "title": "Appliance Data Management System",
-                "description": "Lorem ipsum dolor sit amet, sonsectetur adipiscing elit.",
+                "description": "Created a data management system for Modern Appliances using C#. The system organizes and tracks appliances like refrigerators, vacuum cleaners, and microwaves, each with a unique item number.",
                 "links": [
                     { "text": "View In GitHub", "url": "https://github.com/PlanetJack/Appliance_Management"}
                 ]
