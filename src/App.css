@@ -472,18 +472,18 @@ h3 {
 /* Portfolio Button Links */
 .portfolio-links {
   display: flex;
-  gap: 12px; /* 버튼 사이 간격 추가 */
-  flex-wrap: wrap; /* 버튼 줄바꿈 처리 */
+  gap: 12px; 
+  flex-wrap: wrap; 
 }
 
 /* Button Style */
 .btn {
-  padding: 8px 16px; /* 버튼 크기 축소 */
-  font-size: 14px; /* 폰트 크기 축소 */
+  padding: 8px 16px; 
+  font-size: 14px; 
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 6px; /* 버튼 모서리 둥글게 조정 */
+  border-radius: 6px; 
   cursor: pointer;
   font-weight: 600;
   transition: background-color 0.3s ease, transform 0.1s ease;
@@ -491,7 +491,7 @@ h3 {
 
 .btn:hover {
   background-color: #0056b3;
-  transform: translateY(-2px); /* 버튼 호버 시 살짝 떠오르는 효과 */
+  transform: translateY(-2px);
 }
 
 /* Close Button Style */
@@ -660,8 +660,9 @@ Testimonial Ends */
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: repeat(5, auto);
-    width: 40%;
+    max-width: 600px;
     row-gap: 32px;
+    margin: 0 auto;
 }
 .container {
     display: grid;
@@ -844,6 +845,7 @@ select {
       gap: 30px;
     }
     @media screen and (max-width: 768px) {
+      
       .contact--section {
           padding: 50px 20px;
           height: 100vh;

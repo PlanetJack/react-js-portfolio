@@ -14,7 +14,7 @@ export default function MyPortfolio() {
 
   // Close Modal function
   const closeModal = () => {
-    document.body.style.overflow = "auto"; 
+    document.body.style.overflow = "auto";
     setIsModalOpen(false);
     setSelectedProject(null);
   };
@@ -57,34 +57,29 @@ export default function MyPortfolio() {
         ))}
       </div>
 
-      {/* Modal */}
       {isModalOpen && selectedProject && (
         <>
-          {/* Overlay */}
           <div className="modal-overlay open" onClick={closeModal}></div>
-
-          {/* Modal */}
           <div className="modal open">
             <div className="modal-content">
               <h2>{selectedProject.title}</h2>
-              {selectedProject.modalDescription.map((content, index) => (
+              {selectedProject.modalDescription.map((content, index) =>
                 typeof content === "string" ? (
                   <p key={index}>{content}</p>
-                ) : content.type === "image" ? (
+                ) : (
                   <img
                     key={index}
                     src={content.src}
                     alt={selectedProject.title}
                     className="modal-image"
                   />
-                ) : null
-              ))}
+                )
+              )}
               <button className="btn-close" onClick={closeModal}>
                 Close
               </button>
             </div>
           </div>
-
         </>
       )}
     </section>

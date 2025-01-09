@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
+          <img src="./img/logo.png" alt="Logoipsum" />
         </div>
         <div className="footer--items">
           <ul>
@@ -133,7 +133,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="http://www.linkedin.com/in/planetjacky/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
