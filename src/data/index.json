@@ -10,7 +10,10 @@
                 "languages": [
                     {"icon": "./img/skills/HTML-icon.png", "name": "HTML"},
                     {"icon": "./img/skills/CSS-icon.png", "name": "CSS"},
-                    {"icon": "./img/skills/react-icon.png", "name": "React"}
+                    {"icon": "./img/skills/react-icon.png", "name": "React"},
+                    {"icon": "./img/skills/TailwindCSS-icon.png", "name": "Tailwind CSS"},
+                    {"icon": "./img/skills/Avalonia-icon.png", "name": "Avalonia"},
+                    {"icon": "./img/skills/xaml-icon.png", "name": "XAML"}
                 ]
                 },
             {
@@ -60,6 +63,7 @@
                     "I utilized React for component-based architecture, Tailwind CSS for modern styling, and JavaScript to implement dynamic features.",
                     "The project aimed to improve navigation and optimize the website for both desktop and mobile users."   
                 ] ,
+                "technologies": ["React", "Tailwind CSS", "JavaScript"],
                 "links": [
                     {"text": "View In Website", "url": "https://codilextech-development.netlify.app/" },
                     { "text": "Detail"}
@@ -85,6 +89,7 @@
                     "Specifically, I worked on retrieving and processing status information from the AGV, such as its position, battery level, and operational state. By utilizing Redis for data storage and caching, I was able to optimize system performance, ensuring faster and more reliable data access during robot operations.",
                     "This project provided hands-on experience in robotic system integration, safety validation, and real-time data processing, contributing to the development of a more efficient and automated warehouse environment."
                     ] ,
+                "technologies": ["C#", "Avalonia", "Redis", "MongoDB", "AGV", "AMR", "MQTT"],
                 "links": [
                     { "text": "Detail"}
                 ]
@@ -94,6 +99,7 @@
                 "src": "./img/projects/First_Portfolio.jpg",
                 "title": "Portfolio (Korean Ver)",
                 "description": "Built my first portfolio website in Korean using HTML, CSS, and JavaScript. The project focused on creating a clean, responsive design with a user-friendly layout to showcase my skills and projects.",
+                "technologies": ["HTML", "CSS", "JavaScript"],
                 "links": [
                     {"text": "View In Website", "url": "https://planetjack.github.io/" }
                 ]
@@ -103,6 +109,7 @@
                 "src": "./img/projects/POS_SYSTEM.png",
                 "title": "POS System",
                 "description": "Project to improve POS System for a Thai Restaurant. Aimed to enhance the limited functionality of the existing system by providing a user-friendly interface",
+                "technologies": ["C#", "XAML", "MySQL"],
                 "links": [
                     {"text": "View In GitHub", "url": "https://github.com/BiteByte-Capstone/POS_System" }
                 ]
@@ -112,6 +119,7 @@
                 "src": "./img/projects/home_inventory.png",
                 "title": "Home Inventory System",
                 "description": "This project is a home inventory management web application developed using Java and MySQL. The goal is to help users organize and track their household items more efficiently. The application was built in NetBeans 8.2, with MySQL 8.0 as the database.",
+                "technologies": ["Java", "MySQL", "NetBean 8.0"],
                 "links": [
                     { "text": "View In GitHub", "url": "https://github.com/PlanetJack/HomeInventory"}
                 ]
@@ -121,6 +129,7 @@
                 "src": "./img/projects/flight_reserv.png",
                 "title": "Flight Reservation System",
                 "description": "Developed a flight reservation management system for the 'Traveless' travel agency as a personal project. Built the back-end using C# in Visual Studio to enable users to search flights, register travelers, and make reservations based on their travel details.",
+                "technologies": ["C#", "XAML"],
                 "links": [
                     { "text": "View In GitHub", "url": "https://github.com/PlanetJack/Flight-Reservation"}
                 ]
@@ -130,6 +139,7 @@
                 "src": "./img/projects/searchAppliances.png",
                 "title": "Appliance Data Management System",
                 "description": "Created a data management system for Modern Appliances using C#. The system organizes and tracks appliances like refrigerators, vacuum cleaners, and microwaves, each with a unique item number.",
+                "technologies": ["C#"],
                 "links": [
                     { "text": "View In GitHub", "url": "https://github.com/PlanetJack/Appliance_Management"}
                 ]

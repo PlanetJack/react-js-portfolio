@@ -37,6 +37,19 @@ export default function MyPortfolio() {
             <div className="portfolio--section--card--content">
               <h3 className="portfolio--section--title">{item.title}</h3>
               <p className="text-md">{item.description}</p>
+
+              {/* Add Tech stack */}
+              {item.technologies && (
+                <div className="portfolio--technologies">
+                  <h4>Technologies Used: </h4>
+                  <ul>
+                    {item.technologies.map((tech, idx) => (
+                      <li key={idx} className="portfolio--technology">{tech}</li>
+                    ))}
+                  </ul>
+               </div>       
+              )}
+
               <div className="portfolio-links">
                 {item.links.map((link, idx) => (
                   <button
