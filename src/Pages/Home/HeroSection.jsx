@@ -9,7 +9,7 @@ export default function HeroSection() {
             setCurrentTitle((prevTitle) => (prevTitle + 1) % titles.length);
         }, 3000);
         return () => clearInterval(interval);
-    }, []);
+    }, [titles.length]);
 
     return (
         <section id="heroSection" className="hero--section">
