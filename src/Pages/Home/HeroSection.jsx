@@ -27,7 +27,7 @@ export default function HeroSection() {
                 </div>
                 <button
                 className="btn btn-primary"
-                onClick={() => window.open("/resume/Jack-Resume_20250120.pdf", "_blank")}
+                onClick={() => window.open("/resume/Jack-Resume_20250122.pdf", "_blank")}
                 >
                 View My Resume
                 </button>
