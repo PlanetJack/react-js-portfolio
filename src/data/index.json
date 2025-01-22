@@ -5,8 +5,6 @@
                 "src": "./img/front-end.png",
                 "title": "Front-End",
                 "description": "Built responsive websites using HTML, CSS, and React.\nGained practical experience in component-based architecture and state management.",
-                
-                "highlight": ["React"],
                 "languages": [
                     {"icon": "./img/skills/HTML-icon.png", "name": "HTML"},
                     {"icon": "./img/skills/CSS-icon.png", "name": "CSS"},

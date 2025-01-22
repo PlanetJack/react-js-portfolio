@@ -25,7 +25,12 @@ export default function HeroSection() {
                         A software developer currently residing in Calgary, Canada
                     </p>
                 </div>
-                <button className="btn btn-primary">Get In Touch</button>
+                <button
+                className="btn btn-primary"
+                onClick={() => window.open("/resume/Jack-Resume_20250120.pdf", "_blank")}
+                >
+                View My Resume
+                </button>
             </div>
             <div className="hero--section--img">
                 <img src="./img/profile_resized.png" alt="Hero Section" />
