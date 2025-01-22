@@ -5,7 +5,7 @@
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
-    "@svgr/webpack": "^5.5.0",
+    "@svgr/webpack": "^8.1.0",
     "babel-jest": "^27.4.2",
     "babel-loader": "^8.2.3",
     "babel-plugin-named-asset-import": "^0.3.8",
@@ -46,9 +46,10 @@
     "react-dom": "^18.3.1",
     "react-refresh": "^0.11.0",
     "react-router-dom": "^7.0.2",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.0",
     "resolve": "^1.20.0",
-    "resolve-url-loader": "^4.0.0",
+    "resolve-url-loader": "^5.0.0",
     "sass-loader": "^12.3.0",
     "semver": "^7.3.5",
     "source-map-loader": "^3.0.0",
@@ -63,7 +64,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "cross-env CI=false react-scripts build",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
@@ -142,5 +143,11 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.26.5",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "cross-env": "^7.0.3"
   }
 }

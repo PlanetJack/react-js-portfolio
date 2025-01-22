@@ -37,8 +37,13 @@ function Navbar() {
         <div>
             <img src="./img/logo.svg" alt="Logoipsum" />
         </div>
-        <a className={`nav__hamburger ${navActive ? "active" : ""}`}
-        onClick={toggleNav}
+        <a
+        href="#" 
+        className={`nav__hamburger ${navActive ? "active" : ""}`}
+        onClick={(e) => {
+            e.preventDefault();
+            toggleNav();
+        }}
         >
             <span className="nav__hamburger__line"> </span>
             <span className="nav__hamburger__line"> </span>
