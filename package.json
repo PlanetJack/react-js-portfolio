@@ -63,8 +63,8 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
-    "start": "node scripts/start.js",
-    "build": "cross-env CI=false react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
@@ -146,6 +146,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.26.5",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-env": "^7.26.0",
     "@babel/preset-react": "^7.26.3",
     "cross-env": "^7.0.3"
